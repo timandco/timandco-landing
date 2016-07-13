@@ -1,13 +1,24 @@
 ---
-title: Welcome to Middleman
+title: Tope is Awesome
 ---
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+<head>
+  <ul>
+  <li><%= link_to 'Home', '/index.html.erb' %></li>
+ <li><%= link_to 'Contact', './contact.html.erb' %></li>
+  <li><%= link_to 'About', './about.html.erb', :relative => true %></li>
+</ul>
+</head>
+
 
 <div class="welcome">
   <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
+    <%= image_tag "logo.jpg" %>
   </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
+  <h1>Olatope Agboola</h1>
+
+  <p> <a href="mailto:tope628@gmail.com">Email</a> | <a href="https://github.com/tope628">GitHub</a> | <a href="https://www.linkedin.com/in/olatopeagboola" >LinkedIn</a> | <a href="https://twitter.com/topea_" >Twitter</a></p>
+
+  <!-- .doc -->
 </div><!-- .welcome -->

@@ -2,20 +2,37 @@
 @import "normalize";
 
 body {
-  background: #ECC561;
+  background: white;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Courgette',cursive;
   font-size: 1em;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-.logo img {
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ img {
   height: 18.75em;
   margin-top: 6em;
 }
 
 h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: navy blue;
+  font-family: 'Courgette', cursive;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0;
@@ -23,7 +40,7 @@ h1 {
 
 .doc {
   margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Courgette', cursive;
   font-size: 1.1em;
   font-weight: 300;
 
