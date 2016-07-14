@@ -6,7 +6,7 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: Courgette, cursive; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -35,12 +35,11 @@ figcaption,
 figure,
 footer,
 header,
-main, /* 2 */
-menu,
+main,/* 2 */
 nav,
 section,
 summary { /* 1 */
-  display: block;
+display: inline-block;
 }
 
 /**
@@ -51,7 +50,7 @@ audio,
 canvas,
 progress,
 video {
-  display: inline-block;
+  display: inline;
 }
 
 /**
