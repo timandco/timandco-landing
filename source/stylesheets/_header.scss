@@ -19,10 +19,10 @@
   background: rgba(38, 35, 40, 0.98);
   width: 100%;
  .navbar-default .navbar-nav > li > a{
-                color: #333;
+                color: #000;
             }
             .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .current > a, .navbar-default .navbar-nav > .current > a:hover, .navbar-default .navbar-nav > .current > a:focus{
-                color: #333;
+                color: black;
 
             }
 
@@ -108,8 +108,8 @@
 }
 #header .navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
-  color: #ffffff;
-  font-family: 'JosefinSans', sans-serif;
+  color: black;
+ font-family: 'Courgette', cursive;
   font-size: 10px;
   font-weight: 700;
   padding: 15px 0 20px 5px;
@@ -161,6 +161,7 @@
 }
 .navbar-collapse {
   max-height: 600px;
+  background-color: #fff;
 }
 /* ==================================================
 =====================  Google Nexus menu ============
@@ -200,13 +201,13 @@
 .gn-menu-main > ul {
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: black;
   color: #262328;
   list-style: none;
   text-transform: none;
   font-weight: 300;
   line-height: 60px;
-  font-family: 'Opensans', sans-serif;
+font-family: 'Courgette', cursive;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -219,7 +220,7 @@
   -webkit-box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1);
-  font-size: 12px;
+  font-size: 12px
 }
 .gn-menu-main li .gn-menu li a:hover,
 .gn-menu-main li .gn-menu li a.current {
@@ -235,7 +236,7 @@
   transition: all 0.2s ease;
   letter-spacing: 3px;
   color: #262328;
-  font-family: 'JosefinSans', sans-serif;
+font-family: 'Courgette', cursive;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -270,7 +271,7 @@
 }
 .gn-menu-main > li > a {
   padding: 0 15px;
-  font-family: 'Opensans', sans-serif;
+  font-family: 'Courgette', cursive;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -337,10 +338,11 @@
   line-height: 60px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(38, 35, 40, 0.98);
   text-align: left;
   font-size: 12px;
-  font-family: 'Opensans', sans-serif;
+ font-family: 'Courgette', cursive;
+
 }
 .gn-menu li:hover .gn-submenu li {
   height: 60px;
@@ -353,7 +355,7 @@
   text-transform: none;
   font-weight: 300;
   line-height: 60px;
-  font-family: 'Opensans', sans-serif;
+  font-family: 'Courgette', cursive;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
@@ -376,34 +378,34 @@ input.gn-search {
   background: transparent;
   color: #262328;
   font-weight: 300;
-  font-family: 'Opensans', sans-serif;
+  font-family: 'Courgette', cursive;
   cursor: pointer;
 }
 /* placeholder */
 .gn-search::-webkit-input-placeholder {
   color: #262328;
-  font-family: 'JosefinSans', sans-serif;
+ font-family: 'Courgette', cursive;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 700;
 }
 .gn-search:-moz-placeholder {
   color: #262328;
-  font-family: 'JosefinSans', sans-serif;
+  font-family: 'Courgette', cursive;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 700;
 }
 .gn-search::-moz-placeholder {
   color: #262328;
-  font-family: 'JosefinSans', sans-serif;
+  font-family: 'Courgette', cursive;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 700;
 }
 .gn-search:-ms-input-placeholder {
   color: #262328;
-  font-family: 'JosefinSans', sans-serif;
+  font-family: 'Courgette', cursive;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 700;

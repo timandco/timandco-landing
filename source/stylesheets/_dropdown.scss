@@ -1,0 +1,71 @@
+/* ==============================================
+ drop down menu
+ =============================================== */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: none;
+}
+.dropdown-menu {
+  border: 1px solid #262328;
+  padding: 0;
+  border-radius: 0;
+  background-color: blue;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.dropdown-menu li > a {
+  padding: 0 20px;
+  white-space: nowrap;
+  min-height: 32px;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  letter-spacing: 2px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu:hover:after {
+  color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-submenu:after {
+  content: "\f3d3";
+  font-family: Ionicons;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 14px;
+  z-index: -1;
+  padding-left: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-submenu > .dropdown-menu {
+  position: absolute;
+  left: 100% !important;
+  top: -1px;
+  margin: 0;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: black;
+  background-color:pink;
+  padding: 0 17px 0 23px;
+}
+.nav.navbar-right .dropdown-menu {
+  right: 0;
+}
