@@ -16,7 +16,6 @@
 
   <body class="index">
 
-
        <!doctype html>
 <html>
   <head>
@@ -60,9 +59,9 @@
                                     <!-- Collect the nav links, forms, and other content for toggling -->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                         <ul class="nav navbar-nav navbar-right" id="navbar-full">
-                                            <li class="current"><a href="#home">Home</a></li>
-                                            <li><a href="#fitness-about">About</a></li>
-                                            <li><a href="#training">Services</a></li>
+                                            <li class="current"><a href="#header">Home</a></li>
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#services">Services</a></li>
                                              <li><a href="#contact">Contact</a></li>
                                         </ul>
 
@@ -81,28 +80,31 @@
 <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
 
-<div class="container">
-   <!-- =======================
+
+<!-- https://css-tricks.com/perfect-full-page-background-image/ -->
+
+<!-- =======================
         =====   Home section  ======
         =========================-->
-        <section id="home">
-            <div id="rev_slider_104_1_wrapper" class="rev_slider_wrapper fullscreen-container color-scheme-1" data-alias="scroll-effect76">
-                <!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
-                <div id="rev_slider_104_1" class="rev_slider fullscreenbanner" data-version="5.0.7">
-                    <ul>	<!-- SLIDE  -->
-                        <li data-index="rs-309" data-transition="slideoverhorizontal" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"    data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Design" data-description="">
-                            <!-- MAIN IMAGE -->
-                            <img src="http://placehold.it/1350x400"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                      </li>
-                  </ul>
-              </div>
-          </div>
+        <section class="cd-main-content">
+       <main class="cd-main-content">
+		<div class="cd-fixed-bg cd-bg-1">
+			<h1>Add read more and fix links</h1>
+		</div> <!-- cd-fixed-bg -->
+
+
+
+	</main> <!-- cd-main-content -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/all.js"></script> <!-- Resource jQuery -->
+</body>
+
          </section>
 
 
 
 
-    <!-- =======================
+  <!-- =======================
         =====  About section    ====
         =========================-->
         <section id="about">
@@ -168,18 +170,235 @@
                                 <h1 class="factor">35</h1>
                                 <h4>Win Cups</h4>
                             </article>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+  <!-- ==========================
+        =====  Service section    ====
+        ============================-->
+        <section id="service">
+            <div class="container-fluid color-scheme-1">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 no-pad pull-right">
+                        <div class="container-60-liner dark pb-90">
+                            <div class="block-part-title white">
+                                <h1 class="part-title">Services</h1>
+                                <h4 class="part-sub-title">Duis ac tellus et risus vulputate vehicula</h4>
+                            </div>
+                            <div class="block-part-text white">
+                                <p>
+                                    Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                                </p>
+                            </div>
+                            <article class="block-rotate-title dark">
+                                <span class="rotate-title">Categories</span>
+                                <div class="block-rotate-inner">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Photography and Imaging services</a></li>
+                                        <li><a href="#">Media and Audio services</a></li>
+                                        <li><a href="#">Web developing services</a></li>
+                                        <li><a href="#">Server installation services</a></li>
+                                        <li><a href="#">Tutorial and support services</a></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 no-pad">
+                        <div class="container-60-2">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="block-service white">
+                                        <span class="service-icon"><i class="ion-ios-pie-outline"></i></span>
+                                        <div class="block-title">
+                                            <a href="">Account and Advert</a>
+                                            <p>Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="block-service white">
+                                        <span class="service-icon"><i class="ion-ios-printer-outline"></i></span>
+                                        <div class="block-title">
+                                            <a href="">Printing and Spelling</a>
+                                            <p>Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="block-service white">
+                                        <span class="service-icon"><i class="ion-ios-videocam-outline"></i></span>
+                                        <div class="block-title">
+                                            <a href="">Video and Effects</a>
+                                            <p>Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="block-service white">
+                                        <span class="service-icon"><i class="ion-ios-book-outline"></i></span>
+                                        <div class="block-title">
+                                            <a href="">Well documentation</a>
+
+                                            <p>Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-</div>
 
-    
-        <!-- ===========================================
+        </section>
+
+ <div class="bg-client">
+                <div  class="container-60">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="container-60-2 color-scheme-3">
+                                <div class="row">
+                                    <div  class="owl-single-column owl-carousel owl-carousel-with-dots">
+                                        <div class="item">
+                                            <div class="block-client-say">
+                                                <span class="client-icon"><i class="ion-quote"></i></span>
+                                                <p class="client-text">
+                                                    Excepteur sint occaecat non proident, sunt sse cillum dolore eu fugiat nulla pariatur in culpa qui officia<br> deserunt mollit anim id est laborum.
+                                                </p>
+                                                <h4 class="client-author">John Nitiy</h4>
+                                                <p class="client-prof">SEO Manager</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="block-client-say">
+                                                <span class="client-icon"><i class="ion-quote"></i></span>
+                                                <p class="client-text">
+                                                    Lorem ipsum dolor sit amet, sse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat non proident deserunt mollit anim id est laborum.
+                                                </p>
+                                                <h4 class="client-author">Tom Goly</h4>
+                                                <p class="client-prof">Web Designer</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="block-client-say">
+                                                <span class="client-icon"><i class="ion-quote"></i></span>
+                                                <p class="client-text">
+                                                    Excepteur sse cillum dolore eu fugiat nulla pariatur sint occaecat non proident, sunt in culpa qui officia<br> deserunt sse cillum dolore eu fugiat nulla pariatur mollit anim id est laborum.
+                                                </p>
+                                                <h4 class="client-author">Anna Johniy</h4>
+                                                <p class="client-prof">Web Developer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parrtners">
+                        <div class="block-parrtners">
+                            <img src="http://placehold.it/140x140" alt="" class="img-responsive">
+                        </div>
+                        <div class="block-parrtners">
+                            <img src="http://placehold.it/140x140" alt="" class="img-responsive">
+                        </div>
+                        <div class="block-parrtners">
+                            <img src="http://placehold.it/140x140" alt="" class="img-responsive">
+                        </div>
+                        <div class="block-parrtners">
+                            <img src="http://placehold.it/140x140" alt="" class="img-responsive">
+                        </div>
+                        <div class="block-parrtners">
+                            <img src="http://placehold.it/140x140" alt="" class="img-responsive">
+                        </div>
+                        <div class="block-parrtners">
+                            <img src="http://placehold.it/140x140" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+<section id="contact">
+            <div class="block90_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="block-part-title center">
+                            <h1 class="part-title">Contact us</h1>
+                            <h4 class="part-sub-title">We  meet you</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="block-part-text">
+                                <h4 class="widget-title"><i class="ion-android-locate"></i>Adress:</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, sse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                                <h4 class="widget-title"><i class="ion-android-call"></i>Phone:</h4>
+
+                                <p>(10 808) 321-1785-952<br>
+                                    (10 808) 321-1785-953
+                                </p>
+                                <h4 class="widget-title"><i class="ion-email"></i>Email:</h4>
+                                <p> mosaic-design@domain.com<br>
+                                    support@yoursite.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            
+                            <div id="form-wrapper">
+                                <div id="form-inner">
+                                    <div id="ErrResults"><!-- Error Here --></div>
+                                    <div id="MainResult"><!-- Response Here --></div>
+                                    <div id="MainContent">
+                                        <form id="MyContactForm" name="MyContactForm" method="post">
+                                            <p class="name">
+                                                <input type="text" name="name" id="name" placeholder="Your Name">
+                                                <label for="name" id="nameLb"><span class="error">*Name Field Required</span></label>
+                                            </p>
+                                            <p>
+                                                <input type="email" name="email" id="email" placeholder="Your Email">
+                                                <label for="email" id="emailLb">
+                                                    <span class="error error1">*Email Field Required</span> 
+                                                    <span class="error error2">*Email Not Valid</span>
+                                                </label> 
+                                            </p>
+                                            <p> 
+                                                <input type="text" name="phone" id="phone" placeholder="Your Telephone">
+                                                <label for="phone" id="phoneLb"><span class="error">*Telephone Field Required</span></label>
+                                            </p>
+                                            <p class="textarea">
+                                                <textarea name="message" id="message" placeholder="Your Message" rows="4"></textarea>
+                                                <label for="message" id="messageLb"><span class="error">*Message Field Required</span></label>
+                                            </p>
+                                            <div class="clearfix"></div>
+                                            <div class="text-left">
+                                                <a href="#" class="contact-btn btn-default">Send Message</a>  
+                                            </div>
+
+                                        </form>
+                                    </div><!--MainContent-->
+                                </div><!--form-inner-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+ <script src="javascripts/owl.carousel.js"></script>
+      <!-- ===========================================
         =====          Footer section               ====
         ============================================ -->
-        <footer id="footer">
+        <footer id="footer" class="dark">
             <div class="container-fluid">
 
                 <div class="row">
@@ -188,7 +407,6 @@
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Service</a></li>
-                            <li><a href="#">Portfolio</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
@@ -213,7 +431,7 @@
                             </div>
                             <div class="col-md-1 col-xs-12 col-sm-2">
                                 <div class="footer-logo">
-                                   <img src="http://placehold.it/76x38">
+                                    <img src="http://placehold.it/76X38" alt="">
                                 </div>
                             </div>
                         </div>
@@ -221,5 +439,7 @@
                 </div>
             </div><!--/.container-->
         </footer><!--/footer-->
+
+        <!-- End Section footer -->
   </body>
 </html>
