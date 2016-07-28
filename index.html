@@ -6,37 +6,23 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Tope is Awesome</title>
+    <title>Tim + Co.</title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
     <link href="stylesheets/site.css" rel="stylesheet" />
     <script src="javascripts/all.js"></script>
+
   </head>
 
   <body class="index">
 
-       <!doctype html>
-<html>
-  <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Tope is Awessome</title>
-
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
-    <link href="stylesheets/site.css" rel="stylesheet" />
-    <script src="javascripts/all.js"></script>
-  </head>
-  </html>
-
+    
    <!-- =======================
         =====     Header      ======
         =========================-->
         <header id="header">
+
             <div class="header-body" id="header-body-fixed">
                 <div class="container">
                     <div id="container-fixed">
@@ -59,10 +45,10 @@
                                     <!-- Collect the nav links, forms, and other content for toggling -->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                         <ul class="nav navbar-nav navbar-right" id="navbar-full">
-                                            <li class="current"><a href="#header">Home</a></li>
-                                            <li><a href="#about">About</a></li>
-                                            <li><a href="#services">Services</a></li>
-                                             <li><a href="#contact">Contact</a></li>
+                                            <li class="current"><a class= "smoothScroll" href="#splash">Home</a></li>
+                                            <li><a class= "smoothScroll" href="#about">About</a></li>
+                                            <li><a class= "smoothScroll" href="#services">Services</a></li>
+                                             <li><a class= "smoothScroll" href="#contact">Contact</a></li>
                                         </ul>
 
                                     </div><!-- /.navbar-collapse -->
@@ -76,30 +62,22 @@
         </header>
         <!-- End header -->
 
-    
-<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-
-
-
-<!-- https://css-tricks.com/perfect-full-page-background-image/ -->
+    <!-- https://css-tricks.com/perfect-full-page-background-image/ -->
 
 <!-- =======================
         =====   Home section  ======
         =========================-->
-        <section class="cd-main-content">
-       <main class="cd-main-content">
-		<div class="cd-fixed-bg cd-bg-1">
-			<h1>Add read more and fix links</h1>
-		</div> <!-- cd-fixed-bg -->
+<section class= "title" id="splash" name="splash">
+  <div class="splash-bottom">
+     <button class="btn btn-default white">Read More</button>
+  </div>
 
+</section>
 
-
-	</main> <!-- cd-main-content -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/smoothscroll.js"></script>
 	<script src="js/all.js"></script> <!-- Resource jQuery -->
-</body>
 
-         </section>
 
 
 
@@ -108,6 +86,7 @@
         =====  About section    ====
         =========================-->
         <section id="about">
+                    <a class= "title" id ="about"> </a>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12 no-pad">
@@ -179,6 +158,7 @@
         =====  Service section    ====
         ============================-->
         <section id="service">
+                    <a class= "title" id ="services"> </a>
             <div class="container-fluid color-scheme-1">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12 no-pad pull-right">
@@ -211,7 +191,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="block-service white">
-                                        <span class="service-icon"><i class="ion-ios-pie-outline"></i></span>
+                                        <span class="service-icon"><i class="icon ion-ios-pie-outline"></i></span>
                                         <div class="block-title">
                                             <a href="">Account and Advert</a>
                                             <p>Ut magna aliqua enim ad ipsum dolor sit amet, con sectetur adipis icing minim veniam, quis nostrud</p>
@@ -255,7 +235,8 @@
 
         </section>
 
- <div class="bg-client">
+<section id="portfolio">
+<div class="bg-client">
                 <div  class="container-60">
                     <div class="container-fluid">
                         <div class="row">
@@ -299,7 +280,9 @@
                         </div>
                     </div>
                 </div>
+  <!-- Add images of work
                 <div class="parrtners">
+                    <div id="owl-partners"  class="owl-carousel">
                         <div class="block-parrtners">
                             <img src="http://placehold.it/140x140" alt="" class="img-responsive">
                         </div>
@@ -320,11 +303,11 @@
                         </div>
                     </div>
                 </div>
+-->
             </div>
-
-
-        </section>
+</section>
 <section id="contact">
+            <a class= "title" id ="contact"> </a>
             <div class="block90_1">
                 <div class="container">
                     <div class="row">
@@ -394,20 +377,34 @@
 
             </div>
         </section>
- <script src="javascripts/owl.carousel.js"></script>
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script src="javascripts/owl.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  console.log("JQUERY WORKING");
+  $(".owl-carousel").owlCarousel({
+    autoplay: 3000,
+    loop: true,
+    items : 1
+
+  });
+
+});
+</script>
       <!-- ===========================================
         =====          Footer section               ====
         ============================================ -->
-        <footer id="footer" class="dark">
+        <footer id="footer" class="dark footer navbar-fixed-bottom">
             <div class="container-fluid">
 
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="footer-menu list-unstyled text-center">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a class= "smoothScroll" href="#splash">Home</a></li>
+                            <li><a class= "smoothScroll" href="#about">About</a></li>
+                            <li><a class= "smoothScroll" href="#services">Service</a></li>
+                            <li><a class= "smoothScroll" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -416,7 +413,7 @@
                         <div class="col-md-12">
                             <div class="col-md-4 pull-right col-xs-12 col-sm-12">
                                 <ul class="footer-icon list-unstyled">
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-github"></i></a></li>
                                     <li><a href="#"><i class="ion-social-dropbox"></i></a></li>
                                     <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
                                     <li><a href="#"><i class="ion-social-twitter"></i></a></li>
@@ -441,5 +438,6 @@
         </footer><!--/footer-->
 
         <!-- End Section footer -->
+
   </body>
 </html>

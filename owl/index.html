@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>OWL</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+    <link href="../stylesheets/site.css" rel="stylesheet" />
+    <script src="../javascripts/all.js"></script>
+
+  </head>
+
+  <body class="owl owl_index">
+
+    
+   <!-- =======================
+        =====     Header      ======
+        =========================-->
+        <header id="header">
+
+            <div class="header-body" id="header-body-fixed">
+                <div class="container">
+                    <div id="container-fixed">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <nav class="navbar navbar-default" role="navigation">
+
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a href="index.html" class="header-logo"> <img src="http://placehold.it/76x38"></a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right" id="navbar-full">
+                                            <li class="current"><a class= "smoothScroll" href="#splash">Home</a></li>
+                                            <li><a class= "smoothScroll" href="#about">About</a></li>
+                                            <li><a class= "smoothScroll" href="#services">Services</a></li>
+                                             <li><a class= "smoothScroll" href="#contact">Contact</a></li>
+                                        </ul>
+
+                                    </div><!-- /.navbar-collapse -->
+                                </nav>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+
+    <div style="height: 500px;"></div>
+<h1>Carousel</h1>
+
+<div class="owl-carousel">
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+</div>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script src="../javascripts/owl.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  console.log("JQUERY WORKING");
+  $(".owl-carousel").owlCarousel({
+    autoplay: 3000,
+    loop: true,
+    items : 1
+
+  });
+
+});
+</script>
+      <!-- ===========================================
+        =====          Footer section               ====
+        ============================================ -->
+        <footer id="footer" class="dark footer navbar-fixed-bottom">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="footer-menu list-unstyled text-center">
+                            <li><a class= "smoothScroll" href="#splash">Home</a></li>
+                            <li><a class= "smoothScroll" href="#about">About</a></li>
+                            <li><a class= "smoothScroll" href="#services">Service</a></li>
+                            <li><a class= "smoothScroll" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-4 pull-right col-xs-12 col-sm-12">
+                                <ul class="footer-icon list-unstyled">
+                                    <li><a href="#"><i class="ion-social-github"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-dropbox"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-7 pull-right col-xs-12 col-sm-10">
+                                <p class="reserved">
+                                    © Built with mussan. All rights reserved. MosaicDesign™
+                                </p>
+
+                            </div>
+                            <div class="col-md-1 col-xs-12 col-sm-2">
+                                <div class="footer-logo">
+                                    <img src="http://placehold.it/76X38" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </footer><!--/footer-->
+
+        <!-- End Section footer -->
+
+  </body>
+</html>
