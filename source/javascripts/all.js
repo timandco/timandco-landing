@@ -3,5 +3,5 @@
 //= require bootstrap
 //= require verti
 //= require owl.carousel.js
-//= require smoothscroll
+//= require smoothscroll.js
 
