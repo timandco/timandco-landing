@@ -4,7 +4,7 @@
 #footer {
   position: relative;
   padding: 30px 0 0;
-  background-color: #f3f3f3;
+  background-color: $head-foot;
   text-align: left;
 }
 #footer .footer-menu {
@@ -29,7 +29,7 @@
   text-decoration: none;
 }
 #footer .footer-icon li a i {
-  color: rgba(38, 35, 40, 0.5);
+  color:$body;
   text-align: right;
   line-height: 30px;
   font-size: 18px;
@@ -43,7 +43,7 @@
   transition: all 0.3s ease;
 }
 #footer .footer-icon li a:hover i {
-  color: #ea504e;
+  color:$text-hover;
 }
 #footer .reserved {
   line-height: 40px;
@@ -54,19 +54,21 @@
   border-top: 1px solid rgba(38, 35, 40, 0.1);
 }
 #footer.dark {
-  background-color: #262328;
+  background-color: $head-foot;
 }
 #footer.dark .footer-menu a {
-  color: rgba(255, 255, 255, 0.5);
+  color: $body;
+      text-transform: uppercase;
+  font-size:10px;
 }
 #footer.dark .footer-menu a:hover {
-  color: #ffffff;
+  color: $text-hover;
 }
 #footer.dark .footer-icon li a i {
-  color: rgba(255, 255, 255, 0.5);
+  color: $body;
 }
 #footer.dark .footer-icon li a:hover i {
-  color: #ea504e;
+  color: $text-hover;
 }
 #footer.dark .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.06);

@@ -1,0 +1,185 @@
+/* ==========================================================================
+   Contact style
+   ========================================================================== */
+form input,
+form textarea,
+.form-control {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgba(38, 35, 40, 0.5);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #262328;
+  line-height: inherit;
+  padding: 5px 0;
+  width: 100%;
+  font-size: 14px;
+  background: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+form input:hover,
+form textarea:hover,
+.form-control:hover,
+form input:focus,
+form textarea:focus,
+.form-control:focus {
+  border-bottom-color: #262328;
+}
+#MyContactForm p span {
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+input:focus,
+textarea:focus {
+  border-color: #262328;
+}
+::-webkit-input-placeholder {
+  color: #aaa;
+  font-family:$font;
+}
+::-moz-placeholder {
+  /* Firefox 18- */
+
+  color: #aaa;
+  font-family:$font;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+
+  color: #aaa;
+  font-family: $font;
+}
+::-ms-input-placeholder {
+  color: #aaa;
+  font-family:$font;
+}
+#MyContactForm p label,
+#MyNewsletter p label {
+  cursor: text;
+  display: block;
+  margin: 0 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+#form-wrapper #MyContactForm .error {
+  bottom: 18px;
+  color: #FF0000;
+  font-family: $font;
+  font-size: 12px;
+  font-weight: normal;
+  left: auto;
+  letter-spacing: 0;
+  position: absolute;
+  right: 20px;
+  text-transform: capitalize;
+  width: auto;
+}
+#form-wrapper.white form input,
+#form-wrapper.white form textarea {
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+#form-wrapper.white form input:hover,
+#form-wrapper.white form textarea:hover,
+#form-wrapper.white form input:focus,
+#form-wrapper.white form textarea:focus {
+  border-bottom-color: #ffffff;
+}
+#form-wrapper.white input:focus,
+#form-wrapper.white textarea:focus {
+  border-color: #ffffff;
+}
+#newsletter-form-wrapper #MyNewsletter .newslettererror {
+  bottom: 18px;
+  color: #FF0000;
+  font-family: $font;
+  font-size: 12px;
+  font-weight: normal;
+  left: auto;
+  letter-spacing: 0;
+  position: absolute;
+  right: 20px;
+  text-transform: capitalize;
+  width: auto;
+}
+#newsletter-form-wrapper.white form input,
+#newsletter-form-wrapper.white form textarea {
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+#newsletter-form-wrapper.white form input:hover,
+#newsletter-form-wrapper.white form textarea:hover,
+#newsletter-form-wrapper.white form input:focus,
+#newsletter-form-wrapper.white form textarea:focus {
+  border-bottom-color: #ffffff;
+}
+#newsletter-form-wrapper.white input:focus,
+#newsletter-form-wrapper.white textarea:focus {
+  border-color: #ffffff;
+}
+.newsletter-btn {
+  display: inline-block;
+  margin-bottom: 0;
+}
+#newsletteremail {
+  width: 80%;
+  padding: 10px 0;
+}
+#MyContactForm p {
+  position: relative;
+}
+#ErrResults {
+  text-align: center;
+  color: #262328;
+}
+.address-list > li {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.address-list {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.address-list i {
+  border: 1px solid;
+  display: inline-block;
+  height: 30px;
+  line-height: 24px;
+  text-align: center;
+  width: 30px;
+}
+.response {
+  letter-spacing: 1px;
+  margin: -10px 0 25px;
+  font-family: $font;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.google-map {
+  height: 665px;
+}
+.google-map iframe {
+  overflow: hidden;
+  height: 100% !important;
+  width: 100% !important;
+  border: none;
+  pointer-events: none;
+}
+.block90_1 {
+    padding: 90px 0 60px;
+    position: relative;
+}
+body {
+    background-color: #BDD684;
+    font-family: $font;
+    font-size: 14px;
+}

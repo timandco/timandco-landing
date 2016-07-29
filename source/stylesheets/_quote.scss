@@ -1,0 +1,84 @@
+@import "owl.carousel";
+
+.bg-client {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.container-60 {
+    padding: 60px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-60-2 {
+    padding: 60px 60px 30px 60px;
+}
+.color-scheme-3 {
+    background-color: rgba(38, 35, 40, 0.9);
+}
+.block-client-say {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.block-parrtners {
+    text-align: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.parrtners {
+    padding: 0 60px 60px 60px;
+}
+.block-client-say .client-icon {
+  line-height: 80px;
+  color: $light-green;
+  font-size: 80px;
+  margin-bottom: 30px;
+  display: block;
+}
+.block-client-say .client-text {
+  font-size: 18px;
+  font-family:$font;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.block-client-say .client-author {
+  color: rgba(255, 255, 255, 0.9);
+  font-family:$font;
+  font-weight: 600;
+  position: relative;
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.block-client-say .client-prof {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: $font;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.block-client-say.white .client-icon {
+  color: rgba(234, 80, 78, 0.9);
+}
+.block-client-say.white .client-text {
+  color: rgba(38, 35, 40, 0.7);
+}
+.block-client-say.white .client-author {
+  color: rgba(38, 35, 40, 0.9);
+}
+.block-client-say.white .client-prof {
+  color: rgba(38, 35, 40, 0.5);
+}

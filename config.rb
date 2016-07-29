@@ -46,6 +46,7 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
   deploy.build_before = true
+  deploy.commit_message = 'save changes TA'
 end
 activate :directory_indexes
 activate :sprockets

@@ -1,0 +1,14 @@
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<%= javascript_include_tag :owl %>
+<script type="text/javascript">
+$(document).ready(function(){
+  console.log("JQUERY WORKING");
+  $(".owl-carousel").owlCarousel({
+    autoplay: 3000,
+    loop: true,
+    items : 1
+
+  });
+
+});
+</script>
